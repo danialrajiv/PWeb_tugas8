@@ -410,10 +410,9 @@ if(isset($_GET['id'])){
 
 #### **4. Tangkapan Layar (Screenshot)**
 
-*(Di bagian ini, Anda harus menambahkan screenshot dari aplikasi Anda saat berjalan. Unggah gambar ke repositori GitHub Anda, lalu tautkan di sini)*
 
 **Halaman Utama**
-![Halaman Utama](link-ke-gambar-halaman_utama.png)
+![Halaman Utama](https://github.com/danialrajiv/PWeb_tugas8/blob/main/halaman_utama.png)
 
 **Halaman Formulir**
 ![Halaman Formulir](link-ke-gambar-halaman_form.png)
