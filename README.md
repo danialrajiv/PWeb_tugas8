@@ -415,12 +415,12 @@ if(isset($_GET['id'])){
 ![Halaman Utama](https://github.com/danialrajiv/PWeb_tugas8/blob/main/halaman_utama.png)
 
 **Halaman Formulir**
-![Halaman Formulir](link-ke-gambar-halaman_form.png)
+![Halaman Formulir](https://github.com/danialrajiv/PWeb_tugas8/blob/main/halaman_form.png)
 
 **Halaman Konfirmasi**
-![Halaman Konfirmasi](link-ke-gambar-halaman_konfirmasi.png)
+![Halaman Konfirmasi](https://github.com/danialrajiv/PWeb_tugas8/blob/main/halaman_konfirmasi.png)
 
 **Halaman Daftar Pendaftar**
-![Halaman Daftar](link-ke-gambar-halaman_list_pendaftar.png)
+![Halaman Daftar](https://github.com/danialrajiv/PWeb_tugas8/blob/main/halaman_list_pendaftar.png)
 
 ---
