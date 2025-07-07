@@ -1,0 +1,146 @@
+/* style.css */
+
+/* Pengaturan dasar untuk seluruh halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Kontainer utama yang membungkus konten */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header di setiap halaman */
+header {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+header h1, header h3 {
+    margin: 0;
+    color: #0056b3;
+}
+
+/* Navigasi / Menu */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Tombol Aksi */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-edit { background-color: #ffc107; }
+.btn-edit:hover { background-color: #e0a800; }
+.btn-delete { background-color: #dc3545; }
+.btn-delete:hover { background-color: #c82333; }
+.btn-add { background-color: #28a745; margin-bottom: 20px; }
+.btn-add:hover { background-color: #218838; }
+.btn-primary { background-color: #007BFF; }
+.btn-primary:hover { background-color: #0056b3; }
+.btn-secondary { background-color: #6c757d; }
+.btn-secondary:hover { background-color: #5a6268; }
+
+/* Tabel untuk daftar siswa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+table thead {
+    background-color: #007BFF;
+    color: white;
+}
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Formulir */
+fieldset { border: none; padding: 0; margin: 0; }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.radio-group { display: flex; align-items: center; gap: 25px; }
+.radio-group label { font-weight: normal; display: flex; align-items: center; gap: 8px; }
+.btn-submit {
+    width: 100%; padding: 12px; background-color: #007BFF; color: white;
+    border: none; border-radius: 5px; cursor: pointer; font-size: 16px;
+    font-weight: bold; transition: background-color 0.3s ease;
+}
+.btn-submit:hover { background-color: #0056b3; }
+
+/* === PENAMBAHAN STYLE BARU UNTUK HALAMAN OUTPUT === */
+.output-container {
+    text-align: center;
+}
+.output-data {
+    text-align: left;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #28a745;
+}
+.output-data p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+.action-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
