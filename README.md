@@ -1,8 +1,8 @@
 # **Laporan Tugas Pemrograman Web**
 ### **Aplikasi Pendaftaran Siswa Sederhana dengan PHP & Session**
 
-- **Nama:** [Nama Lengkap Anda]
-- **NIM/Kelas:** [NIM/Kelas Anda]
+- **Nama:** Danial Rajiv Syahidan
+- **NRP** 5054231004
 - **Mata Kuliah:** Pemrograman Web
 
 ---
@@ -413,15 +413,15 @@ if(isset($_GET['id'])){
 *(Di bagian ini, Anda harus menambahkan screenshot dari aplikasi Anda saat berjalan. Unggah gambar ke repositori GitHub Anda, lalu tautkan di sini)*
 
 **Halaman Utama**
-![Halaman Utama](link-ke-gambar-halaman-utama.png)
+![Halaman Utama](link-ke-gambar-halaman_utama.png)
 
 **Halaman Formulir**
-![Halaman Formulir](link-ke-gambar-halaman-form.png)
+![Halaman Formulir](link-ke-gambar-halaman_form.png)
 
 **Halaman Konfirmasi**
-![Halaman Konfirmasi](link-ke-gambar-halaman-konfirmasi.png)
+![Halaman Konfirmasi](link-ke-gambar-halaman_konfirmasi.png)
 
 **Halaman Daftar Pendaftar**
-![Halaman Daftar](link-ke-gambar-halaman-daftar.png)
+![Halaman Daftar](link-ke-gambar-halaman_list_pendaftar.png)
 
 ---
